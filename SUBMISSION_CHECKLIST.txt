@@ -1,0 +1,11 @@
+SUBMISSION CHECKLIST
+
+[ ] schema.sql was executed successfully in MySQL Workbench.
+[ ] npm install completed successfully.
+[ ] Registration displays "You have successfully registered."
+[ ] Successful login displays "You have logged in successfully."
+[ ] Incorrect login displays "The login credentials were incorrect."
+[ ] Registration response contains a link to login.html.
+[ ] Login responses contain a link back to login.html.
+[ ] No MySQL password is included in any submitted file.
+[ ] Submit the unihub-login-assignment folder or ZIP, according to the course submission page.
