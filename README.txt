@@ -59,3 +59,15 @@ IMPORTANT
 ---------
 Always open the pages through http://localhost:3000. Do not open the HTML files
 directly using file:/// because the form must be processed by the Node server.
+
+SESSION SETUP
+
+Before starting the server, set a session secret:
+
+export SESSION_SECRET='replace-with-your-own-secret'
+
+The server requires both ROOTPASS and SESSION_SECRET:
+
+export ROOTPASS='YOUR_MYSQL_PASSWORD'
+export SESSION_SECRET='replace-with-your-own-secret'
+npm start
